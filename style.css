@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'quicksand';
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    background: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+button {
+    font-weight: bold;
+    padding: 5px;
+    background-color: skyblue;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 8%;
+    height: auto;
+}
+
+.card {
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 50px;
+  }
+
+.card img {
+  width: 100%;
+}
+
+.card h1 {
+    padding-bottom: 10px;
+}
+
+.card2 {
+    right: 1%;
+    position: absolute;
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 50px;  
+}
+
+.card2 img {
+    width: 100%;
+}
+
+.card2 h4 {
+      text-align: center;
+}
+
+.card2 table {
+    padding: 5px;
+    text-align: left;
+}
+
+.navbar a {
+    position: relative;
+    margin-left: 80px;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: skyblue;
+    text-align: center;
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
